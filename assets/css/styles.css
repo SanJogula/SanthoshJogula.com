@@ -390,7 +390,7 @@ img {
   width: 200px;
   border-radius: .5rem;
   justify-self: center;
-  align-self: center;
+  align-self: auto;
 }
 
 .about__description{
@@ -461,6 +461,11 @@ img {
   transition: .4s;
 }
 
+.skills__list{
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
 .skills__titles{
   display: flex;
   justify-content: space-between;
@@ -504,6 +509,15 @@ img {
 }
 .skills__javascript{
   width: 15%;
+}
+.skills__postman{
+  width: 80%;
+}
+.skills__git{
+  width: 80%;
+}
+.skills__github{
+  width: 70%;
 }
 
 .skills__close .skills__list{
@@ -584,13 +598,14 @@ img {
   display: none;
 }
 
-.qualification__active [data-content]{
+.qualification__active[data-content]{
   display: block;
 }
 
 .qualification__button.qualification__active{
   color: var(--first-color);
 }
+
 /*==================== SERVICES ====================*/
 
 
@@ -836,7 +851,7 @@ img {
   .header,
   .main,
   .footer__container{
-    padding: 0 irem;
+    padding: 0 1rem;
   }
 
   .nav{
