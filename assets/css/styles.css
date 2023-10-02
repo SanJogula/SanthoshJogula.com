@@ -606,6 +606,7 @@ img {
   color: var(--first-color);
 }
 
+#more {display: none;}
 /*==================== SERVICES ====================*/
 
 
